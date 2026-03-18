@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #fff;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.mirror{
+    margin: 0 auto;
+    max-width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 80px 20px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    font-family: 'Pacifico', cursive, 'Comic MS Sans';
+    text-shadow: 8px 8px 16px rgba(0,0,0,0.3);
+    color:#e93772;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+    text-shadow: 8px 8px 16px rgba(0,0,0,0.3);
+    color:#e93772;
+}
+
+.btn-custom {
+    background: #fff;
+    color: #871615;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    top: 0;
+    animation: fall 5s linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
