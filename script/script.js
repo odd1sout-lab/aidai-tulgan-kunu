@@ -45,7 +45,7 @@ setInterval(() => {
     let hours = Math.floor((diff / (1000*60*60)) % 24);
     let minutes = Math.floor((diff / (1000*60)) % 60);
 
-    if (hours == 0){
+    if (hours < 0){
         timerEl.innerHTML = ``;
         document.getElementById("timerh2").innerHTML = '';
     }
